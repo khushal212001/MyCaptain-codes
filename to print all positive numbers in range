@@ -1,0 +1,11 @@
+l1=[12,-7,5,64,-14]
+l2=[12,14,-95,3]
+
+def positive(a):
+    ''' PRINTS POSITIVE FROM THE LIST ENTERED IN A NEW LIST '''
+    print(positive.__doc__)
+    print([i for i in a  if i >0])
+
+positive(l1)
+
+positive(l2)    
